@@ -12,3 +12,6 @@ damn you really clicked on this.
 
 # thirdly, wha?
 wha?
+
+# fourthly, what happened?
+How do I explain... well adding modes is a ton more easier!
