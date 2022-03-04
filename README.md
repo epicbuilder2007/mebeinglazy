@@ -10,6 +10,8 @@ damn you really clicked on this.
 
 (version 1) section formula
 
+(version 1.2) inclination formula 
+
 # thirdly, wha?
 wha?
 
