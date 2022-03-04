@@ -23,7 +23,7 @@ if mode == '5':
     print('You hath uncovered le secret mode, which gives thou le sacred numbre.')
     print('Le council shalt decide thou fate, please waite.')
     time.sleep(randint(1,10))
-    print('Ze council hath decided zat {} shalt be thou sacred passage for the day'.format(randint(1,380000)))
+    print('Ze council hath decided zat {} shalt be thou sacred passage for the day'.format(randint(1,394275)))
     
 elif mode != '5':
     importlib.import_module(str(mode), package=None)
