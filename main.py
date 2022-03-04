@@ -17,11 +17,9 @@ parser.add_argument('--y', type=float, nargs=1, help='For equations that do not 
 args = parser.parse_args()
 
 mode = args.mode
-x = [args.fp[0], args.sp[0]]
-y = [args.fp[1], args.sp[1]]
+x = [args.fp[0], args.sp[0], args.x]
+y = [args.fp[1], args.sp[1], args.y]
 ratio = args.ratio
-singX = args.x
-singY = args.y
 
 if mode == '5':
     print('You hath uncovered le secret mode, which gives thou le sacred numbre.')
