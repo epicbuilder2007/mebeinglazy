@@ -19,7 +19,7 @@ args = parser.parse_args()
 mode = args.mode
 x = [args.fp[0], args.sp[0], args.x]
 y = [args.fp[1], args.sp[1], args.y]
-ratio = args.ratio
+ratio = args.ratio #lmao get ratioed
 
 if mode == '5':
     print('You hath uncovered le secret mode, which gives thou le sacred numbre.')
@@ -28,7 +28,7 @@ if mode == '5':
     print('Ze council hath decided zat {} shalt be thou sacred passage for the day'.format(randint(1,394275)))
     
 elif mode != '5':
-    importlib.import_module(str(mode), package=None)
+    importlib.import_module(str("formulas." + mode), package=None)
 
 
 
