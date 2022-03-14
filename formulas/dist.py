@@ -1,9 +1,9 @@
 #imports the variables
 import main
-from main import x
-from main import y
+from main import listx
+from main import listy
 import math
 
 #actual formula
-dist = math.sqrt(((x[1]-x[0])**2)+((y[1]-y[0])**2))
+dist = math.sqrt(((listx[1]-listx[0])**2)+((listy[1]-listy[0])**2))
 print(dist)

@@ -1,6 +1,6 @@
 import main
-from main import x
-from main import y
+from main import listx
+from main import listy
 
-slope = (y[1]-y[0])/(x[1]-x[0])
+slope = (listy[1]-listy[0])/(listx[1]-listx[0])
 print(slope)

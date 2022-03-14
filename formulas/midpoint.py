@@ -1,9 +1,9 @@
 import main
-from main import x
-from main import y
+from main import listx
+from main import listy
 
-midPointX = (x[0]+x[1])/2
-midPointY = (y[0]+y[1])/2
+midPointx = (listx[0]+listx[1])/2
+midPointy = (listy[0]+listy[1])/2
 
-print(midPointX)
-print(midPointY)
+print(midPointx)
+print(midPointy)
